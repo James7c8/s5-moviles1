@@ -6,6 +6,8 @@ class Producto {
 
   Producto(this.codigo, this.descripcion, this.precio, this.existencia);
 
+  get getCodigo => codigo;
+
   get getDescripcion => descripcion;
 
   set setDescripcion(descripcion) => this.descripcion = descripcion;
